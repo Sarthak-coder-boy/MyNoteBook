@@ -13,5 +13,5 @@ app.use("/api/auth" , require('./routes/auth'))
 app.use("/api/note" , require('./routes/note'))
 
 app.listen(port , ()=>{
-    console.log("iNotebook listening in port 3000")
+    console.log("iNotebook listening in port 5000")
 })
